@@ -15,7 +15,11 @@
     "en-US": "Click anywhere to see report."
   },
   "Congratulations! You are hired as a consultant to help your local bicycle shop. Do you have what it takes to make their business thrive?": {
+<<<<<<< HEAD
     "en-US": "Congratulations! You have been hired as a consultant for Velo, a chain of twenty bicycle shops. Your job is to help us transform into a digital enterprise.&#xa;You can make one investment each month, as long as there are funds available. You have exactly 24 months to complete the digital transformation by making wise investment choices. You progress to the next month simply by choosing an investment to make. Do you have what it takes to make this business thrive?"
+=======
+    "en-US": "Congratulations! You have been hired to consultant Velo, a chain of twenty bicycle shops. Your job is to help us transform into a digital enterprise.</p>You can make one investment each month, as long as there are funds available. You have exactly 24 months to complete the digital transformation by making wise investment choices. You progress to the next month simply by choosing an investment to make. Do you have what it takes to make this business thrive?"
+>>>>>>> 95a9236bbbed92d8cc3df3295f17c9a8d62a38a6
   },
   "Final report": {
     "en-US": "Final report"
