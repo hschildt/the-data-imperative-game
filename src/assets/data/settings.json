@@ -17,7 +17,7 @@
         "en-US": "Sources of data"
       },
       "description": {
-        "en-US": "Data is at the heart of digital transformation. Streams of digital data capture diverse aspects of the natural world, firm processes, business environment, customers, partners, and so forth. The higher the quality, comprehensiveness, and timeliness the data is, the greater its value tends to be. While companies now generate plenty of data through their operations and digital customer interfaces, valuable data can also be procured from external suppliers. \nInvestments in this category create new “data assets” related to specific IT systems and aggregate those into comprehensive “information assets”, such as detailed profiles of their customers’ behaviors and interests."
+        "en-US": "Data is at the heart of digital transformation. Streams of digital data capture diverse aspects of the natural world, firm processes, business environment, customers, partners, and so forth. The higher the quality, comprehensiveness, and timeliness the data is, the greater its value tends to be. While companies now generate plenty of data through their operations and digital customer interfaces, valuable data can also be procured from external suppliers. %0D%0A\nInvestments in this category create new “data assets” related to specific IT systems and aggregate those into comprehensive “information assets”, such as detailed profiles of customers’ behaviors and interests."
       },
       "onboardingStatus": 1,
       "children": [
@@ -36,9 +36,9 @@
                 "en-US": "A centralized register of detailed customer information"
               },
               "description": {
-                "en-US": "This project collects all information related to the customers into a centralized information asset that helps run diverse analyses. Collecting customer data also involves important privacy issues, including compliance with the European GDPR framework. Companies often have information concerning purchases, contracts, and communications spread through diverse information systems, making it impossible to calculate, for example, even how profitable each customer is."
+                "en-US": "This project collects all information related to the customers into a centralized information asset that helps run diverse analyses. Collecting customer data also involves important privacy issues, including compliance with the European GDPR framework. Companies often have information concerning purchases, contracts, and communications spread through diverse information systems. Without integrated data, it can be difficult to answer even simply questions, such as how profitable a customer relationship is."
               },
-              "price": 8000,
+              "price": 16000,
               "returns": 600
             },
             {
@@ -52,7 +52,7 @@
               "description": {
                 "en-US": "The project replaces old CCTV cameras with new cloud-connected models that store the video feed into a centralized cloud repository. Security cameras help reduce theft, but their can also be used to track the number of visitors in the stores over time. Storage of the camera data enables further, more sophisticated analyses."
               },
-              "price": 2000,
+              "price": 5000,
               "returns": 200
             },
             {
@@ -61,13 +61,13 @@
                 "en-US": "Market research"
               },
               "longTitle": {
-                "en-US": "Third party market research data on consumers"
+                "en-US": "Third party market research data"
               },
               "description": {
                 "en-US": "This project involves acquiring external market analysis data on key consumer groups. Such data helps assess the market potential of diverse services, set prices for products, and target advertising to the consumers most likely to make purchases."
               },
-              "price": 12000,
-              "returns": 1000
+              "price": 20000,
+              "returns": 8000
             }
           ]
         },
@@ -86,23 +86,23 @@
                 "en-US": "A register of all products and their characteristics"
               },
               "description": {
-                "en-US": "This project transfers discrepant product data from diverse document formats into a centralized database. The data makes it possible to search for and compare different products and their features. This helps employees serve the customers better, helps improve the representation of products in digital channels, and speeds up the creation of promotional materials."
+                "en-US": "This project transfers discrepant product data from diverse document formats into a centralized database. Such data enables more comprehensive search queries and comparisons. Centralized information bank can help employees serve the customers better, improve the representation of products in digital channels, and speed up the creation of promotional materials."
               },
-              "price": 5000,
-              "returns": 200
+              "price": 15000,
+              "returns": 300
             },
             {
               "id": 4,
               "title": {
-                "en-US": "Product sales data"
+                "en-US": "Centralized sales data"
               },
               "longTitle": {
-                "en-US": "A centralized database of all product sales"
+                "en-US": "A centralized database of all sales"
               },
               "description": {
-                "en-US": "This project collates all sales data from various geographic locations and information systems to provide accurate insight on what products and services the company has sold, where, when, and to whom. The database allows the firm to better assess the realized profits from different products and the impact of discounts on profitability."
+                "en-US": "This project collates all sales data from various geographic locations and information systems to provide accurate insight on what products and services the company has sold, where, when, and to whom. The database allows the firm to better assess the realized profits from different products and the impact of discounts on profitability. This information asset can be utilized in many many different analyses."
               },
-              "price": 4000,
+              "price": 12000,
               "returns": 500
             }
           ]
@@ -124,7 +124,7 @@
               "description": {
                 "en-US": "This project develops a system integration that provides access to weather forecast information in machine readable format."
               },
-              "price": 2000,
+              "price": 4000,
               "returns": 100
             },
             {
@@ -136,10 +136,10 @@
                 "en-US": "Integrated data on employees from HR systems and cash registers"
               },
               "description": {
-                "en-US": "This project integrates data from HR databases, work scheduling system, and cash registers across geographic locations into a comprehensive information asset on employees. Such centralized high-quality data allows more informed and fair decision making through greater transparency towards employees and their performance."
+                "en-US": "This project integrates data from HR databases, work scheduling system, and cash registers across geographic locations into a comprehensive information asset on employees. Such centralized high-quality data provides greater transparency on employees and their performance, enabling more informed and fair decision-making."
               },
-              "price": 5000,
-              "returns": 800
+              "price": 12000,
+              "returns": 600
             },
             {
               "id": 7,
@@ -150,10 +150,10 @@
                 "en-US": "User identity tracking in digital and physical channels"
               },
               "description": {
-                "en-US": "This project involves efforts to encourage web and mobile users to create accounts, and to link that data to customer identities in store, when possible. Such data can be further analyzed to understand how different customers use the digital channels and visit physical stores."
+                "en-US": "This project involves efforts to encourage web and mobile users to create accounts, and to link that data to customer identities in store, when possible. Such data feeds diverse analyses, helping the company understand how different customers use the digital channels, visit physical stores, and make purchasing decisions."
               },
-              "price": 2000,
-              "returns": 500
+              "price": 12000,
+              "returns": 400
             }
           ]
         }
@@ -183,18 +183,18 @@
               "description": {
                 "en-US": "This project involves the development of machine learning models that predict the sales of each product, divided across the store network and online channel. Such models are central to many managerial decisions and improve logistics processes."
               },
-              "price": 6000,
-              "returns": 1000
+              "price": 12000,
+              "returns": 600
             },
             {
               "id": 9,
               "title": {
-                "en-US": "Recommendation engine"
+                "en-US": "Recommendation engines"
               },
               "description": {
                 "en-US": "This project develops a set of recommendation engines that help target the most suitable products to customers. While there are many kinds of recommendation algorithms, they all use the available data concerning the focal customer and other similar customers to predict the most likely products or services the customer would buy."
               },
-              "price": 6000,
+              "price": 12000,
               "returns": 200
             },
             {
@@ -205,7 +205,7 @@
               "description": {
                 "en-US": "This project develops a set of algorithms that estimate the future spending of an actual or potential customer. These are typically “stochastic models” that assign customers into categories and predict the likelihood of them moving from one category to another. Modeling the likely future spending can help company make smarter advertising decisions and design targeted efforts to retain the most attractive customers."
               },
-              "price": 8000,
+              "price": 16000,
               "returns": 400
             }
           ]
@@ -222,9 +222,9 @@
                 "en-US": "Optimized logistics"
               },
               "description": {
-                "en-US": "This project implements an advanced software system to manage inventory levels and shipping more smartly. Optimized logistics increase product availability, save money in shipping and storage costs, and help free up capital tied up in inventory. Optimized logistics can greatly benefit from accurate sales forecasts."
+                "en-US": "This project implements an advanced software system to manage inventory levels and shipping more effectively. Optimized logistics increase product availability, save money in shipping and storage costs, and help free up capital tied up in inventory. Optimized logistics can greatly benefit from accurate sales forecasts."
               },
-              "price": 10000,
+              "price": 18000,
               "returns": 1200
             },
             {
@@ -233,10 +233,10 @@
                 "en-US": "Price optimization"
               },
               "description": {
-                "en-US": "This project implements a set of algorithms that help set optimal prices for products as well as to determine the timing and magnitude of discounts to maximize aggregate profits. While pricing decisions are still often made by human experts, data and algorithms can help improve the pricing significantly. The algorithms also help free up inventory for next season’s products without destroying profitability through mistimed discounting. It is worth noting that this project shifts decision making power concerning discounts from individual store managers to the headquarters."
+                "en-US": "This project implements a set of algorithms that help set optimal prices for products as well as to determine the timing and magnitude of discounts to maximize aggregate profits. While pricing decisions are still often made by human experts, data and algorithms can help improve the pricing significantly. The algorithms also help free up inventory for next season’s products without destroying profitability through mistimed discounting. It is worth noting that this project shifts decision-making power from individual store managers to the headquarters."
               },
-              "price": 8000,
-              "returns": 1000
+              "price": 15000,
+              "returns": 800
             },
             {
               "id": 13,
@@ -244,9 +244,9 @@
                 "en-US": "Predicting store visits"
               },
               "description": {
-                "en-US": "This project develops prediction algorithms that estimate how many customers will visit each store over the coming weeks, on an hour-to-hour basis. Such predictions can help store managers adapt their staffing levels to save costs when foot traffic is low and to retain high level of customer service during busy periods. The usefulness of such algorithms depends greatly on the accuracy of the predictions made by store managers."
+                "en-US": "This project develops prediction algorithms that estimate how many customers will visit each store over the coming weeks, on an hour-to-hour basis. Such predictions can help store managers adapt their staffing levels to save costs when foot traffic is low and to retain high level of customer service during busy periods. Such algorithms have limited use unless store managers are able to quickly increase or reduce staffing levels."
               },
-              "price": 6000,
+              "price": 9000,
               "returns": 400
             }
           ]
@@ -263,13 +263,27 @@
                 "en-US": "Web analytics"
               },
               "longTitle": {
-                "en-US": "Analytics system for website, mobile, and digital ads."
+                "en-US": "Analytics system for website, mobile store, and digital marketing."
               },
               "description": {
                 "en-US": "This project involves the adoption and setting up of a sophisticated cloud software service to analyze the marketing “funnel” – what kind of customers click ads, how do they use the website, and what explains whether they buy anything or not. Such analytics tools help digital marketing specialist design more effective ads and target them better. They also help improve the design of the web store and thus increase sales. The same analytics tools can be also used with proprietary mobile apps."
               },
-              "price": 10000,
+              "price": 24000,
               "returns": 800
+            },
+            {
+              "id": 30,
+              "title": {
+                "en-US": "HR analytics"
+              },
+              "longTitle": {
+                "en-US": "Predictive analytics for recruitment and employee retention."
+              },
+              "description": {
+                "en-US": "This project involves the adoption of a cloud-based HR analytics software that helps screen out job applicants and identify high-performing staff at risk of leaving."
+              },
+              "price": 22000,
+              "returns": 400
             }
           ]
         }
@@ -281,7 +295,7 @@
         "en-US": "New business processes"
       },
       "description": {
-        "en-US": "To take full benefit of business analytics and smart algorithms, companies need to redesign their business processes. Often this involves replacing rather static human routines with adaptive processes and more frequent updates. This implies changes to many work roles and thus require challenging change management processes. While companies often used to allocate advertising budgets and set prices quarterly, many companies now adapt them weekly or even more frequently. To leverage algorithmic prescriptions, businesses often have to shift decision making from local managers to information systems and recognize previously overlooked interdependencies across business functions."
+        "en-US": "To take full benefit of business analytics and smart algorithms, companies need to redesign their business processes. Often this involves replacing rather static human routines with adaptive smart automation, and developing capabilities for rapid experimentation and constant improvement. For example, instead of allocating advertising budgets and setting prices quarterly, many companies now adapt them weekly or even daily. To take advantage of digital systems, companies often need to rethink work roles and build extensive change management programs. Leveraging algorithmic prescriptions often involves shifting decision-making power from local managers to centralized information systems. Since digitalization helps to identify and manage previously overlooked interdependencies across teams, it leads to increase in the overall complexity of interdependent business processes."
       },
       "onboardingStatus": 1,
       "children": [
@@ -302,7 +316,7 @@
               "description": {
                 "en-US": "This project involves widespread training to instill an entrepreneurial culture of rapid experimentation. Digital data flows and tools enable companies to monitor their environment and react more quickly to new opportunities and threats. This agility requires, however, that various managers and front-line employees are able to recognize changes and to device potential responses. By training employees to experiment with new services and service variations, the company aims to improve customer experience and create new revenue sources."
               },
-              "price": 12000,
+              "price": 24000,
               "returns": 1000
             },
             {
@@ -314,9 +328,9 @@
                 "en-US": "Management practices accommodating dynamic pricing"
               },
               "description": {
-                "en-US": "This project involves training for centralized smart pricing, based on analytics and A/B testing (running personalized discounts to identify optimal prices). The project also installs smart price tags into stores so that changes in pricing can be adapted more rapidly throughout the store network."
+                "en-US": "This project implements centralized processes for smart pricing. It involves setting up a team of employees that draw on analytics and A/B testing, such as experimenting with discounts to identify optimal prices. The project also installs smart price tags (Internet of Things) to stores, allowing pricing to be adapted more rapidly throughout the store network."
               },
-              "price": 6000,
+              "price": 14000,
               "returns": 500
             }
           ]
@@ -338,8 +352,8 @@
               "description": {
                 "en-US": "This project trains the store managers and staff to conceive and test changes in the store layout. Distributed experimentation and lateral sharing of best practices across stores improves the customer experience. Consequently, the customers are likely to visit stores more often, spread positive word of mouth, and spend more money."
               },
-              "price": 4000,
-              "returns": 500
+              "price": 6000,
+              "returns": 400
             },
             {
               "id": 18,
@@ -347,9 +361,9 @@
                 "en-US": "Smart staffing and rewards"
               },
               "description": {
-                "en-US": "This project replaces the established staffing processes that are focused on convenient matching employees and shifts with a more data-driven process that seeks to optimize both costs and revenues. By linking rewards and working hours more closely to sales, the new process aims to employ the most effective employees in shifts where they can make the biggest impact."
+                "en-US": "This project replaces the established staffing processes that have been aimed at convenient matching of employees with shifts. The new data-driven process seeks to assign work shifts in a way that minimizes costs and maximizes revenues. By linking rewards and working hours more closely to sales, the new process aims to utilize the best sales staff during periods when they can make the biggest impact."
               },
-              "price": 6000,
+              "price": 10000,
               "returns": 500
             }
           ]
@@ -369,10 +383,10 @@
                 "en-US": "Data-driven selection of product assortment"
               },
               "description": {
-                "en-US": "This project creates a centralized role for choosing the assortment sold at various store locations. Previously, the company had used store managers’ expertise and local knowledge as the basis for choosing product assortments sold at various stores. With increasing availability of data, the centralized unit is better poised to determine the products and services offered at each store."
+                "en-US": "This project creates a centralized role for choosing the products sold at various store locations. Previously, the company had used store managers’ expertise and local knowledge as the basis for choosing product assortments. With increasing availability of data, the centralized unit is better poised to determine the products and services offered at each store."
               },
-              "price": 4000,
-              "returns": 500
+              "price": 10000,
+              "returns": 400
             },
             {
               "id": 20,
@@ -380,9 +394,9 @@
                 "en-US": "Digital partnerships"
               },
               "description": {
-                "en-US": "This project establishes a network of partnerships with other consumer companies, offering complementary services, such as insurance products and travel, to customer’s and drawing partners’ customers to the web store. These partnerships create new sources of revenue from partners and increase sales in digital and physical channels."
+                "en-US": "This project establishes a network of partnerships with other consumer companies, offering complementary services, such as insurance products and travel, to customer’s and drawing partners’ customers to the web store. These partnerships create new sources of revenue from partners and increase sales in digital and physical channels. Some relationships can also become imporant sources valuable digital data."
               },
-              "price": 10000,
+              "price": 20000,
               "returns": 800
             }
           ]
@@ -395,7 +409,7 @@
         "en-US": "Digital control"
       },
       "description": {
-        "en-US": "To enable smart automation, companies often seek to make customer experiences, physical equipment, employees, and other processes directly controllable by software. The digital control of the enterprise extends the reach of software to adapt customer experience in real time. While adapting the content, prices, and advertising on mobile apps and websites is fairly easy, companies have also implemented software systems that provide real time instructions to sales clerks and call center employees. The Internet of Things (IoT) now allows software systems to control physical equipment, enabling smart algorithms to adapt the functioning of power plants and oil refineries, and orchestrate smart buildings."
+        "en-US": "To enable smart automation, companies often seek to make customer experiences, physical equipment, employees, and other processes directly controllable by software. The digital control of the enterprise extends the reach of software to adapt customer experience in real time. While adapting the content, prices, and advertising on mobile apps and websites is fairly easy, companies have also implemented software systems that provide real time instructions to sales clerks and call center employees. The Internet of Things (IoT) now allows software systems to control physical equipment, enabling smart algorithms to adapt the operations at power plants and oil refineries, and to orchestrate the functioning of smart buildings."
       },
       "onboardingStatus": 1,
       "children": [
@@ -414,10 +428,10 @@
                 "en-US": "Adaptive website and mobile app"
               },
               "description": {
-                "en-US": "This project adopts a cloud service for providing a more dynamic web and mobile store with the capacity to customize the content shown to users. This involves, for example, showing customers products that they have previously looked at but not bought. Dynamic digital channels are a prerequisite for taking full advantage of the recommendation engine."
+                "en-US": "This project configures a cloud-based suite for providing a more dynamic web and mobile store experience, including customized content for users. For example, customers will be shown products that they have previously looked at, but not yet bought. Such dynamic digital channels is able to take full advantage of recommendation engines."
               },
-              "price": 12000,
-              "returns": 600
+              "price": 30000,
+              "returns": 1000
             },
             {
               "id": 22,
@@ -430,7 +444,7 @@
               "description": {
                 "en-US": "This project implements a dynamic email platform for sending out news to registered customers. By taking into account information on customers’ age, gender, and other factors helps provide more interesting and relevant information, thereby reducing the likelihood that they unsubscribe the email newsletter. Customized emails can leverage the recommendation engine and targeted discounts to increase purchase likelihood."
               },
-              "price": 4000,
+              "price": 10000,
               "returns": 600
             },
             {
@@ -444,7 +458,7 @@
               "description": {
                 "en-US": "This project creates a mobile app for Android and iPhone. The app allows customers to browse and order products, book the annual service for their bike, and check news related to the store. If users allow notifications and the tracking of geographic location, the app can inform them of events in stores."
               },
-              "price": 12000,
+              "price": 28000,
               "returns": 600
             }
           ]
@@ -461,9 +475,9 @@
                 "en-US": "Staff scheduling app"
               },
               "description": {
-                "en-US": "This project adopts a third-party cloud service and mobile app for scheduling shifts for staff. The app reduces workload for store managers and creates greater flexibility in staffing, calling employees to work an extra shift on the previous or even the same day a store is enjoying a particularly high number of customers."
+                "en-US": "This project adopts a third-party cloud service and mobile app for scheduling shifts for staff. The app reduces workload for store managers by automating scheduling interactions. The app increases flexibility in staffing, as app may entice employees to work an extra shift even on the same day if the volume of customer visits exceeds predictions."
               },
-              "price": 6000,
+              "price": 10000,
               "returns": 400
             },
             {
@@ -474,8 +488,8 @@
               "description": {
                 "en-US": "This project installs a third-party application on the cash registers that instructs employees to cross-sell and up-sell specific products or services to customers. “Next best action” refers to the best product or service that the sales clerk should try to offer to the customer. The suggested recommendations can be adapted based on customer demographics and product availability. The software can also leverage the recommendation engine to provide customized suggestions based on past purchases."
               },
-              "price": 4000,
-              "returns": 600
+              "price": 10000,
+              "returns": 500
             }
           ]
         },
@@ -491,7 +505,7 @@
                 "en-US": "Programmatic advertising"
               },
               "description": {
-                "en-US": "This project automates the buying of digital advertising space. Leveraging third party advertising platform. The system continuously adapts the advertising spending and content displayed to diverse demographic groups based on the effectiveness of the advertisements. Programmatic advertising can significantly increase the effectiveness of advertising spending and reduce the work needed in marketing. When connected to the logistics system, the platform avoids displaying ads for products that are out of stock."
+                "en-US": "This project leverages a third party advertising platform to automate the purchasing of digital advertisement space. The system continuously adapts the advertising spending and content displayed to diverse demographic groups based on the effectiveness of the advertisements. Programmatic advertising can significantly increase the effectiveness of advertising spending and reduce the work needed in marketing. When connected to the logistics system, the platform avoids displaying ads for products that are out of stock."
               },
               "price": 8000,
               "returns": 800
@@ -510,7 +524,7 @@
       "description": {
         "en-US": "The recommendation engine benefits from accurate customer register."
       },
-      "returns": 200
+      "returns": 500
     },
     {
       "investments": [
@@ -520,7 +534,7 @@
       "description": {
         "en-US": "Customer register really helps make the most of our customer lifecycle value analyses."
       },
-      "returns": 400
+      "returns": 800
     },
     {
       "investments": [
@@ -530,7 +544,7 @@
       "description": {
         "en-US": "Price optimization leads to better discounts with customer register."
       },
-      "returns": 200
+      "returns": 500
     },
     {
       "investments": [
@@ -540,7 +554,7 @@
       "description": {
         "en-US": "We get more out of web analytics with accurate customer register."
       },
-      "returns": 200
+      "returns": 800
     },
     {
       "investments": [
@@ -550,7 +564,7 @@
       "description": {
         "en-US": "Thanks to our customer register, we get more out of digital partnerships."
       },
-      "returns": 400
+      "returns": 1000
     },
     {
       "investments": [
@@ -560,7 +574,7 @@
       "description": {
         "en-US": "Customized emails leverage our up-to-date customer register."
       },
-      "returns": 400
+      "returns": 800
     },
     {
       "investments": [
@@ -570,7 +584,7 @@
       "description": {
         "en-US": "Offering next best actions in store benefits from our up-to-date customer register."
       },
-      "returns": 400
+      "returns": 800
     },
     {
       "investments": [
@@ -600,7 +614,7 @@
       "description": {
         "en-US": "Market research supports our sales forecasts."
       },
-      "returns": 400
+      "returns": 600
     },
     {
       "investments": [
@@ -610,7 +624,7 @@
       "description": {
         "en-US": "We are using market research in our smart pricing practices."
       },
-      "returns": 200
+      "returns": 600
     },
     {
       "investments": [
@@ -620,7 +634,7 @@
       "description": {
         "en-US": "Market research is helpful in creating the customized emails."
       },
-      "returns": 400
+      "returns": 800
     },
     {
       "investments": [
@@ -628,9 +642,9 @@
         11
       ],
       "description": {
-        "en-US": "Product details include the dimensions of products, helping us optimize storage space in our warehouses."
+        "en-US": "Product details include the dimensions of products, helping us optimize storage space in our warehouses and save in shipping costs."
       },
-      "returns": 300
+      "returns": 800
     },
     {
       "investments": [
@@ -640,7 +654,7 @@
       "description": {
         "en-US": "Having detailed product information makes the web store so much better."
       },
-      "returns": 400
+      "returns": 1000
     },
     {
       "investments": [
@@ -650,7 +664,7 @@
       "description": {
         "en-US": "Detailed product information makes the Velo mobile app so much more interesting."
       },
-      "returns": 400
+      "returns": 800
     },
     {
       "investments": [
@@ -660,7 +674,7 @@
       "description": {
         "en-US": "Without detailed sales data, the sales forecasts would be much less accurate."
       },
-      "returns": 400
+      "returns": 1000
     },
     {
       "investments": [
@@ -670,7 +684,7 @@
       "description": {
         "en-US": "Comprehensive sales data makes the recommendation engine work much better."
       },
-      "returns": 400
+      "returns": 800
     },
     {
       "investments": [
@@ -680,7 +694,7 @@
       "description": {
         "en-US": "High quality product sales data helps improve our price optimization."
       },
-      "returns": 400
+      "returns": 900
     },
     {
       "investments": [
@@ -688,7 +702,7 @@
         16
       ],
       "description": {
-        "en-US": "Product sales data helps is helpful in terms of price optimization."
+        "en-US": "Product sales data informs our adaptive pricing practices."
       },
       "returns": 500
     },
@@ -700,7 +714,7 @@
       "description": {
         "en-US": "Our centralized assortment choices really benefit from accurate sales data."
       },
-      "returns": 300
+      "returns": 1000
     },
     {
       "investments": [
@@ -708,9 +722,9 @@
         25
       ],
       "description": {
-        "en-US": "Product sales data helps is helpful in terms of price optimization."
+        "en-US": "Product sales data helps us make better recommendations in stores."
       },
-      "returns": 300
+      "returns": 400
     },
     {
       "investments": [
@@ -718,9 +732,9 @@
         13
       ],
       "description": {
-        "en-US": "The weather forecast data helps us predict more accurately how many customers there will be."
+        "en-US": "The weather forecast data helps us predict more accurately how many customers we will have."
       },
-      "returns": 500
+      "returns": 600
     },
     {
       "investments": [
@@ -737,84 +751,120 @@
         7,
         9
       ],
-      "returns": 300
+      "description": {
+        "en-US": "By tracking the users across different channels, we are able to feed much better data to our recommendation engines."
+      },
+      "returns": 1200
     },
     {
       "investments": [
         7,
         14
       ],
-      "returns": 300
+      "description": {
+        "en-US": "Tracking users across channels and over time has greatly improved the outputs from our web analytics."
+      },
+      "returns": 1200
     },
     {
       "investments": [
         7,
         20
       ],
-      "returns": 300
+      "description": {
+        "en-US": "Digital partnerships benefit greatly from the ability to track users across channels and over time."
+      },
+      "returns": 1000
     },
     {
       "investments": [
         7,
         21
       ],
-      "returns": 300
+      "description": {
+        "en-US": "The dynamic web store benefits from user tracking, allowing us to adapt the web store based on purchases made in stores."
+      },
+      "returns": 800
     },
     {
       "investments": [
         7,
         22
       ],
-      "returns": 300
+      "description": {
+        "en-US": "By tracking customer behaviors across channels, we can create more relevant email marketing."
+      },
+      "returns": 800
     },
     {
       "investments": [
         7,
         25
       ],
-      "returns": 300
+      "description": {
+        "en-US": "By tracking online behavior, we can instruct our staff in stores to try discuss and sell to customers those the products that they have already browsed online earlier."
+      },
+      "returns": 600
     },
     {
       "investments": [
         7,
         26
       ],
-      "returns": 300
+      "description": {
+        "en-US": "Programmatic advertising benefits a lot from user tracking over time and across channels."
+      },
+      "returns": 1200
     },
     {
       "investments": [
         8,
         11
       ],
-      "returns": 300
+      "description": {
+        "en-US": "Sales forecasts provide a vital input to optimizing our logistics."
+      },
+      "returns": 600
     },
     {
       "investments": [
         8,
         16
       ],
-      "returns": 300
+      "description": {
+        "en-US": "Accurate sales forecasts contribute to our price optimization, allowing us to save money by timing our discounting."
+      },
+      "returns": 600
     },
     {
       "investments": [
         9,
         21
       ],
-      "returns": 300
+      "description": {
+        "en-US": "The dynamic web and mobile stores help us get the most out of our recommendation engines!"
+      },
+      "returns": 1200
     },
     {
       "investments": [
         9,
         22
       ],
-      "returns": 300
+      "description": {
+        "en-US": "Recommendation engines really supercharge our customized emails."
+      },
+      "returns": 1200
     },
     {
       "investments": [
         9,
         25
       ],
-      "returns": 300
+      "description": {
+        "en-US": "The next best action in stores really leverages our recommendation engines."
+      },
+      "returns": 900
     },
     {
       "investments": [
@@ -831,84 +881,122 @@
         10,
         22
       ],
-      "returns": 300
+      "description": {
+        "en-US": "Our customized emails leverage the customer lifetime value analyses."
+      },
+      "returns": 600
     },
     {
       "investments": [
         10,
         20
       ],
-      "returns": 300
+      "description": {
+        "en-US": "Accurate predictions of customer lifetime value help us create smarter and more profitable deals with our partners."
+      },
+      "returns": 1000
     },
     {
       "investments": [
         10,
         26
       ],
-      "returns": 300
+      "description": {
+        "en-US": "We can greatly benefit from our customer lifetime value analytics in our programmatic advertising, investing money to foster ties with the most lucrative customers."
+      },
+      "returns": 1500
     },
     {
       "investments": [
         11,
         19
       ],
-      "returns": 300
+      "description": {
+        "en-US": "By centralizing our assortment, we can optimize our logistics even more effectively!"
+      },
+      "returns": 900
     },
     {
       "investments": [
         12,
         16
       ],
-      "returns": 300
+      "description": {
+        "en-US": "Adaptive pricing practices in stores get the most out of our price optimization algorithms."
+      },
+      "returns": 800
     },
     {
       "investments": [
         13,
         18
       ],
-      "returns": 300
+      "description": {
+        "en-US": "Smart staffing practices help us leverage our ability to forecast the store visits. These benefits would be even greater if we had more stores..."
+      },
+      "returns": 600
     },
     {
       "investments": [
         14,
         20
       ],
-      "returns": 300
+      "description": {
+        "en-US": "Our advanced web analytics allow us to negotiate and govern our partnership deals much more effectively!"
+      },
+      "returns": 1200
     },
     {
       "investments": [
         14,
         21
       ],
-      "returns": 300
+      "description": {
+        "en-US": "The dynamic web store really benefits from our investments into web analytics."
+      },
+      "returns": 1000
     },
     {
       "investments": [
+        0,
+        7,
         16,
         22
       ],
-      "returns": 300
+      "description": {
+        "en-US": "Because we track how our users spend money across channels, we are able to send customized emails that take advantage of adaptive pricing. By sending targeted discount vouchers to our price sensitive customers, we can significantly increase our revenues."
+      },
+      "returns": 3000
     },
     {
       "investments": [
         16,
         26
       ],
-      "returns": 300
+      "description": {
+        "en-US": "Combining adaptive pricing with programmatic advertising, we are able to market our high-margin products to our price insensitive customers."
+      },
+      "returns": 1000
     },
     {
       "investments": [
         20,
         21
       ],
-      "returns": 300
+      "description": {
+        "en-US": "Our dynamic web store allows us to integrate our user experience with our partners' offerings."
+      },
+      "returns": 800
     },
     {
       "investments": [
         20,
         22
       ],
-      "returns": 300
+      "description": {
+        "en-US": "The Velo mobile app allows us to intergrate our partners' offerings into the customer experience. For example, we make it easy for customers to buy an insurance along with a new bike."
+      },
+      "returns": 1200
     },
     {
       "investments": [
@@ -919,6 +1007,16 @@
       ],
       "description": {
         "en-US": "Thanks to our accurate employee data, and predictive algorithms, the scheduling app helps us get the most out of workforce!"
+      },
+      "returns": 600
+    },
+    {
+      "investments": [
+        6,
+        30
+      ],
+      "description": {
+        "en-US": "The accurate employee data help improve the performance of our HR analytics system. Still, our fairly small size means that the benefits remain modest."
       },
       "returns": 600
     },
