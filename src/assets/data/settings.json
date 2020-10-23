@@ -17,7 +17,7 @@
         "en-US": "Sources of data"
       },
       "description": {
-        "en-US": "Data is at the heart of digital transformation. Streams of digital data capture diverse aspects of the natural world, firm processes, business environment, customers, partners, and so forth. The higher the quality, comprehensiveness, and timeliness the data is, the greater its value tends to be. While companies now generate plenty of data through their operations and digital customer interfaces, valuable data can also be procured from external suppliers. %0D%0A\nInvestments in this category create new “data assets” related to specific IT systems and aggregate those into comprehensive “information assets”, such as detailed profiles of customers’ behaviors and interests."
+        "en-US": "Data is at the heart of digital transformation. Streams of digital data capture diverse aspects of the natural world, firm processes, business environment, customers, partners, and so forth. The higher the quality, comprehensiveness, and timeliness the data is, the greater its value tends to be. While companies now generate plenty of data through their operations and digital customer interfaces, valuable data can also be procured from external suppliers. <br>Investments in this category create new “data assets” related to specific IT systems and aggregate those into comprehensive “information assets”, such as detailed profiles of customers’ behaviors and interests."
       },
       "onboardingStatus": 1,
       "children": [

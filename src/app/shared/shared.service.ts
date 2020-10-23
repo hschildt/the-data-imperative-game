@@ -1,8 +1,11 @@
 import { EventEmitter,
          Inject,
          Injectable,
-         LOCALE_ID } from '@angular/core';
+         LOCALE_ID,
+         SecurityContext } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { DomSanitizer,
+         SafeHtml } from '@angular/platform-browser';
 import { BehaviorSubject,
          forkJoin } from 'rxjs';
 import { map } from 'rxjs/operators';
@@ -45,7 +48,8 @@ export class SharedService {
 
   constructor(
     private http: HttpClient,
-    @Inject(LOCALE_ID) public locale: string
+    @Inject(LOCALE_ID) public locale: string,
+    private sanitizer: DomSanitizer,
   ) {
     this.loadData();
   }
@@ -128,6 +132,9 @@ export class SharedService {
   /*
    * Return the prompt text in current locale or the text itself if that's not available.
    * If text is a localized string, select the correct localized version or use the default.
+   * Note that if the text is to contain any HTML markup, it should be used as a bound
+   * property, i.e., <span [innerHTML]="shared.getText('Text')"></span>. It will be 
+   * sanitized by Angular but basic formatting and links are allowed, at least.
    */
   public getText(text: string | LocalizedString): string {
     if (text == null) {
