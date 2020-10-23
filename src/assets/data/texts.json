@@ -15,16 +15,16 @@
     "en-US": "Click anywhere to see report."
   },
   "Congratulations! You are hired as a consultant to help your local bicycle shop. Do you have what it takes to make their business thrive?": {
-    "en-US": "Congratulations! You are hired as a consultant to help your local bicycle shop. Do you have what it takes to make their business thrive?"
+    "en-US": "Congratulations! You have been hired to consultant Velo, a chain of twenty bicycle shops. Your job is to help us transform into a digital enterprise. You can make one investment each month, as long as there are funds available. You have exactly 24 months to complete the digital transformation by making wise investment choices. You progress to the next month simply by choosing an investment to make. Do you have what it takes to make this business thrive?"
   },
   "Final report": {
     "en-US": "Final report"
   },
   "Get the Book Now": {
-    "en-US": "Get the Book Now"
+    "en-US": "Find out more"
   },
   "Hi! I’m happy to be working with such an expert! Here you see all the investment categories available. Let’s start by seeing what options they contain.": {
-    "en-US": "Hi! I’m happy to be working with such an expert! Here you see all the investment categories available. Let’s start by seeing what options they contain."
+    "en-US": "Hello! I’m happy to be working with such an expert. Below you see the various investment categories. By clicking a category you can first read a description and then browse the available options."
   },
   "i": {
     "en-US": "i"
@@ -51,7 +51,7 @@
     "en-US": "Purchased"
   },
   "Returns/month": {
-    "en-US": "Returns/month"
+    "en-US": "Income/month"
   },
   "Seems like you’ve spent all my money! Now we have to wait to save up funds for investing.": {
     "en-US": "Seems like you’ve spent all my money! Now we have to wait to save up funds for investing."
@@ -78,6 +78,6 @@
     "en-US": "Yes"
   },
   "You don’t have enough funds!": {
-    "en-US": "You don’t have enough funds!"
+    "en-US": "Unfortunately we currently lack funds to make that investment."
   }
 }
