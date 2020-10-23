@@ -2,7 +2,7 @@
   "version": 5,
   "balance": 100000,
   "rounds": 24,
-  "bookUrl": "https://global.oup.com/academic/product/the-data-imperative-9780198840817?cc=fi&lang=en&",
+  "bookUrl": "https://thedataimperative.net",
   "sentimentOptions": {
     "neutralReturnsRange": [
       400,
@@ -17,7 +17,7 @@
         "en-US": "Sources of data"
       },
       "description": {
-        "en-US": "Data is at the heart of digital transformation. Streams of digital data capture diverse aspects of the natural world, firm processes, business environment, customers, partners, and so forth. The higher the quality, comprehensiveness, and timeliness the data is, the greater its value tends to be. While companies now generate plenty of data through their operations and digital customer interfaces, valuable data can also be procured from external suppliers. Investments in this category create new “data assets” related to specific IT systems and aggregate those into comprehensive “information assets”, such as detailed profiles of their customers’ behaviors and interests."
+        "en-US": "Data is at the heart of digital transformation. Streams of digital data capture diverse aspects of the natural world, firm processes, business environment, customers, partners, and so forth. The higher the quality, comprehensiveness, and timeliness the data is, the greater its value tends to be. While companies now generate plenty of data through their operations and digital customer interfaces, valuable data can also be procured from external suppliers. &#xa;Investments in this category create new “data assets” related to specific IT systems and aggregate those into comprehensive “information assets”, such as detailed profiles of their customers’ behaviors and interests."
       },
       "onboardingStatus": 1,
       "children": [
@@ -165,7 +165,7 @@
         "en-US": "Algorithms and analyses"
       },
       "description": {
-        "en-US": "Algorithms are the intelligent core of software systems, the recipes that derive insights, categorizations, and business decisions from our data. The design of algorithms draws on mathematics, computer science, and statistics, and they range from fairly elementary recipes, such as sorting algorithm that order fields alphabetically, to immense neural networks with billions of connections that can recognize anomalies and process images and video data. Algorithms themselves are now readily available as open source, but their use requires services of skilled data scientists. Moreover, sophisticated algorithms are not much use wihtout high volumes of fairly high quality data. </p>Algorithms are central to managerial pursuit of “digital omniscience”, the efforts to understand and model the world through software rather than human intuition. Once set up, algorithms can make decisions instantly and at no cost, opening up opportunities for entirely new kinds of business processes."
+        "en-US": "Algorithms are the intelligent core of software systems, the recipes that derive insights, categorizations, and business decisions from our data. The design of algorithms draws on mathematics, computer science, and statistics, and they range from fairly elementary recipes, such as sorting algorithm that order fields alphabetically, to immense neural networks with billions of connections that can recognize anomalies and process images and video data. Algorithms themselves are now readily available as open source, but their use requires services of skilled data scientists. Moreover, sophisticated algorithms are not much use without high volumes of fairly high quality data. Algorithms are central to managerial pursuit of “digital omniscience”, the efforts to understand and model the world through software rather than human intuition. Once set up, algorithms can make decisions instantly and at no cost, opening up opportunities for entirely new kinds of business processes."
       },
       "onboardingStatus": 1,
       "children": [
