@@ -5,8 +5,8 @@
   "bookUrl": "https://thedataimperative.net",
   "sentimentOptions": {
     "neutralReturnsRange": [
-      400,
-      1000
+      600,
+      1500
     ],
     "comboCompletionBonus": 1
   },
