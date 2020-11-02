@@ -39,7 +39,7 @@
                 "en-US": "This project collects all information related to the customers into a centralized information asset that helps run diverse analyses. Collecting customer data also involves important privacy issues, including compliance with the European GDPR framework. Companies often have information concerning purchases, contracts, and communications spread through diverse information systems. Without integrated data, it can be difficult to answer even simply questions, such as how profitable a customer relationship is."
               },
               "price": 16000,
-              "returns": 600
+              "returns": 500
             },
             {
               "id": 1,
@@ -53,7 +53,7 @@
                 "en-US": "The project replaces old CCTV cameras with new cloud-connected models that store the video feed into a centralized cloud repository. Security cameras help reduce theft, but their can also be used to track the number of visitors in the stores over time. Storage of the camera data enables further, more sophisticated analyses."
               },
               "price": 5000,
-              "returns": 200
+              "returns": 100
             },
             {
               "id": 2,
@@ -67,7 +67,7 @@
                 "en-US": "This project involves acquiring external market analysis data on key consumer groups. Such data helps assess the market potential of diverse services, set prices for products, and target advertising to the consumers most likely to make purchases."
               },
               "price": 20000,
-              "returns": 8000
+              "returns": 700
             }
           ]
         },
@@ -103,7 +103,7 @@
                 "en-US": "This project collates all sales data from various geographic locations and information systems to provide accurate insight on what products and services the company has sold, where, when, and to whom. The database allows the firm to better assess the realized profits from different products and the impact of discounts on profitability. This information asset can be utilized in many many different analyses."
               },
               "price": 12000,
-              "returns": 500
+              "returns": 400
             }
           ]
         },
@@ -139,7 +139,7 @@
                 "en-US": "This project integrates data from HR databases, work scheduling system, and cash registers across geographic locations into a comprehensive information asset on employees. Such centralized high-quality data provides greater transparency on employees and their performance, enabling more informed and fair decision-making."
               },
               "price": 12000,
-              "returns": 600
+              "returns": 500
             },
             {
               "id": 7,
@@ -184,7 +184,7 @@
                 "en-US": "This project involves the development of machine learning models that predict the sales of each product, divided across the store network and online channel. Such models are central to many managerial decisions and improve logistics processes."
               },
               "price": 12000,
-              "returns": 600
+              "returns": 500
             },
             {
               "id": 9,
@@ -225,7 +225,7 @@
                 "en-US": "This project implements an advanced software system to manage inventory levels and shipping more effectively. Optimized logistics increase product availability, save money in shipping and storage costs, and help free up capital tied up in inventory. Optimized logistics can greatly benefit from accurate sales forecasts."
               },
               "price": 18000,
-              "returns": 1200
+              "returns": 1000
             },
             {
               "id": 12,
@@ -507,7 +507,7 @@
               "description": {
                 "en-US": "This project leverages a third party advertising platform to automate the purchasing of digital advertisement space. The system continuously adapts the advertising spending and content displayed to diverse demographic groups based on the effectiveness of the advertisements. Programmatic advertising can significantly increase the effectiveness of advertising spending and reduce the work needed in marketing. When connected to the logistics system, the platform avoids displaying ads for products that are out of stock."
               },
-              "price": 8000,
+              "price": 26000,
               "returns": 800
             }
           ]
@@ -585,6 +585,16 @@
         "en-US": "Offering next best actions in store benefits from our up-to-date customer register."
       },
       "returns": 800
+    },
+    {
+      "investments": [
+        0,
+        26
+      ],
+      "description": {
+        "en-US": "Our up-to-date customer register helps us customize our programmatic advertising efforts."
+      },
+      "returns": 1000
     },
     {
       "investments": [
