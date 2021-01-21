@@ -369,6 +369,28 @@
           ]
         },
         {
+          "id": 113,
+          "title": {
+            "en-US": "Marketing practices"
+          },
+          "children": [
+            {
+              "id": 50,
+              "title": {
+                "en-US": "Analytical marketing campaigns"
+              },
+              "longTitle": {
+                "en-US": "Formulate campaigns based on measurable outcomes"
+              },
+              "description": {
+                "en-US": "This project institutes marketing practices that are governed by real-time metrics of outcomes."
+              },
+              "price": 8000,
+              "returns": 500
+            }
+          ]
+        },
+        {
           "id": 112,
           "title": {
             "en-US": "Other processes"
