@@ -144,10 +144,10 @@
             {
               "id": 7,
               "title": {
-                "en-US": "User identity tracking"
+                "en-US": "Customer identity tracking"
               },
               "longTitle": {
-                "en-US": "User identity tracking in digital and physical channels"
+                "en-US": "Tracking customers across digital and physical channels"
               },
               "description": {
                 "en-US": "This project involves efforts to encourage web and mobile users to create accounts, and to link that data to customer identities in store, when possible. Such data feeds diverse analyses, helping the company understand how different customers use the digital channels, visit physical stores, and make purchasing decisions."
@@ -269,7 +269,7 @@
                 "en-US": "This project involves the adoption and setting up of a sophisticated cloud software service to analyze the marketing “funnel” – what kind of customers click ads, how do they use the website, and what explains whether they buy anything or not. Such analytics tools help digital marketing specialist design more effective ads and target them better. They also help improve the design of the web store and thus increase sales. The same analytics tools can be also used with proprietary mobile apps."
               },
               "price": 24000,
-              "returns": 800
+              "returns": 600
             },
             {
               "id": 30,
@@ -383,10 +383,38 @@
                 "en-US": "Formulate campaigns based on measurable outcomes"
               },
               "description": {
-                "en-US": "This project institutes marketing practices that are governed by real-time metrics of outcomes."
+                "en-US": "This project institutes marketing practices that are governed by real-time metrics of outcomes. The new mindset involves data in the design, implementation, and governance of all marketing activities, ensuring that their outcomes can be measured im real time."
               },
-              "price": 8000,
+              "price": 10000,
               "returns": 500
+            },
+            {
+              "id": 51,
+              "title": {
+                "en-US": "Search engine optimization"
+              },
+              "longTitle": {
+                "en-US": "Search engine optimization and content marketing"
+              },
+              "description": {
+                "en-US": "The project establishes a new marketing function for optimizing the company's presence in search engines by adapting webpage titles, content, metadata, and links. Relatedly, the project establishes responsibilities for content marketing, the creation of blog posts and product information that draws customers to webiste and supports presence on search engines."
+              },
+              "price": 12000,
+              "returns": 700
+            },
+            {
+              "id": 52,
+              "title": {
+                "en-US": "Social media marketing"
+              },
+              "longTitle": {
+                "en-US": "Social media presence and campaigns"
+              },
+              "description": {
+                "en-US": "The project createss processes and collaborative relationships for maintaining and growing a strong social media presence, and converting the social media community into sales."
+              },
+              "price": 9000,
+              "returns": 400
             }
           ]
         },
@@ -1063,6 +1091,110 @@
         "en-US": "This is amazing! We can now track users, estimate their lifetime value based on web analytics, and spend advertising to attract and retain these customers."
       },
       "returns": 2000
+    },
+    {
+      "investments": [
+        7,
+        10,
+        14,
+        26,
+        50
+      ],
+      "description": {
+        "en-US": "Our analytical marketing deparment is able to make the most out of our integrated data about the customers and programmatic advertising infrastructure."
+      },
+      "returns": 800
+    },
+    {
+      "investments": [
+        7,
+        50
+      ],
+      "description": {
+        "en-US": "The analytical marketing efforts benefit greatly from our ability to track the customers across variuos channels."
+      },
+      "returns": 300
+    },
+    {
+      "investments": [
+        7,
+        52
+      ],
+      "description": {
+        "en-US": "The social media marketing really benefits from our ability to identify and track our customers across channels."
+      },
+      "returns": 300
+    },
+    {
+      "investments": [
+        3,
+        51
+      ],
+      "description": {
+        "en-US": "We are able to use the comprehensive product data to improve our visibility in the search engines and to generate some web content."
+      },
+      "returns": 200
+    },
+    {
+      "investments": [
+        10,
+        50
+      ],
+      "description": {
+        "en-US": "The customer life-cycle analyses provide valuable insights for our marketing unit with analytical skills."
+      },
+      "returns": 500
+    },
+    {
+      "investments": [
+        9,
+        50,
+        4
+      ],
+      "description": {
+        "en-US": "We have been able to leverage our recommendation engines and sales data to target advertising in the social media."
+      },
+      "returns": 400
+    },
+    {
+      "investments": [
+        14,
+        50
+      ],
+      "description": {
+        "en-US": "The analytical approach of our marketing unit helps us get the most of our web analytics and maximize the conversion of visitors into paying customers."
+      },
+      "returns": 300
+    },
+    {
+      "investments": [
+        20,
+        51
+      ],
+      "description": {
+        "en-US": "Thanks to our search engine optimization and content marketing, we are able to turn our digital partnerships into new revenues."
+      },
+      "returns": 200
+    },
+    {
+      "investments": [
+        20,
+        52
+      ],
+      "description": {
+        "en-US": "We are able to leverage our strong social media presence to support and grow our digital partnerships."
+      },
+      "returns": 300
+    },
+    {
+      "investments": [
+        26,
+        50
+      ],
+      "description": {
+        "en-US": "Having marketing staff with analytical capabilities really helps us get the most out of our programmatic advertising."
+      },
+      "returns": 600
     }
   ]
 }
