@@ -99,6 +99,7 @@
         </div>
       </div>
 
+
       <!-- The data pipe -->
       <div *ngIf="i < 3"
           class="dataPipe dataPipe--{{ i }}">
@@ -203,6 +204,11 @@
     <button class="reset"
             (click)="startOverClick($event)" 
             [innerHTML]="t('Start over')"></button>
+<!-- Placeholder added by Henri (needs to be fixed) -->
+    <p>Thank you for helping out! The company board has assessed your work...</p>
+    <img *ngIf="stars.imageUrl"
+    id="endstars"
+    [src]="stars.imageUrl" />
     <app-result-chart [chartData]="resultChartData"
                       [returnsLabel]="t('Monthly returns')"></app-result-chart>
   </div>

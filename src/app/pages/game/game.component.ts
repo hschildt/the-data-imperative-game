@@ -40,6 +40,12 @@ const AVATAR_IMAGES = {
    '1': 'assets/images/avatar-happy.png',
    '2': 'assets/images/avatar-extatic.png',
 };
+const STAR_IMAGES = {
+  '1': 'assets/images/1star.png',
+  '2': 'assets/images/2star.png',
+  '3': 'assets/images/3star.png'
+}
+
 const DATA_KEY_VERSION = 'v';
 const DATA_KEY_ONBOARDED = 'o';
 const DATA_KEY_PURCHASES = 'p';
@@ -549,6 +555,13 @@ export class GameComponent implements OnDestroy, OnInit {
     }
   }
 
+  public get stars(): {count: number, verbal: string, imageUrl: string} {
+    return {
+      count: 2,
+      verbal: 'Very well done!',
+      imageUrl: STAR_IMAGES[2]      
+    }
+  }
   /*
    * Whether to show the modal overlay
    */

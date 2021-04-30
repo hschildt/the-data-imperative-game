@@ -1,11 +1,16 @@
 {
-  "version": 5,
+  "version": 6,
   "balance": 100000,
   "rounds": 24,
   "bookUrl": "https://thedataimperative.net",
+  "stars": [
+      {"score":1, "balance":0, "income":0},
+      {"score":2, "balance":300000, "income":45000},
+      {"score":3, "balance":450000, "income":55000}
+  ],
   "sentimentOptions": {
     "neutralReturnsRange": [
-      600,
+      500,
       1500
     ],
     "comboCompletionBonus": 1
@@ -33,13 +38,13 @@
                 "en-US": "Customer register"
               },
               "longTitle": {
-                "en-US": "A centralized register of detailed customer information"
+                "en-US": "Detailed customer information (CRM database)"
               },
               "description": {
-                "en-US": "This project collects all information related to the customers into a centralized information asset that helps run diverse analyses. Collecting customer data also involves important privacy issues, including compliance with the European GDPR framework. Companies often have information concerning purchases, contracts, and communications spread through diverse information systems. Without integrated data, it can be difficult to answer even simply questions, such as how profitable a customer relationship is."
+                "en-US": "This project collects all information related to the customers into a centralized information asset in a cloud-based cusstomer relationsship management (CRM) system that helps run diverse analyses. Collecting customer data also involves important privacy issues, including compliance with the European GDPR framework. Companies often have information concerning purchases, contracts, and communications spread through diverse information systems. Without integrated data, it can be difficult to answer even simply questions, such as how profitable a customer relationship is."
               },
               "price": 16000,
-              "returns": 500
+              "returns": 300
             },
             {
               "id": 1,
@@ -97,7 +102,7 @@
                 "en-US": "Centralized sales data"
               },
               "longTitle": {
-                "en-US": "A centralized database of all sales"
+                "en-US": "A centralized collection and storage of all sales"
               },
               "description": {
                 "en-US": "This project collates all sales data from various geographic locations and information systems to provide accurate insight on what products and services the company has sold, where, when, and to whom. The database allows the firm to better assess the realized profits from different products and the impact of discounts on profitability. This information asset can be utilized in many many different analyses."
@@ -125,7 +130,7 @@
                 "en-US": "This project develops a system integration that provides access to weather forecast information in machine readable format."
               },
               "price": 4000,
-              "returns": 100
+              "returns": 200
             },
             {
               "id": 6,
@@ -139,7 +144,7 @@
                 "en-US": "This project integrates data from HR databases, work scheduling system, and cash registers across geographic locations into a comprehensive information asset on employees. Such centralized high-quality data provides greater transparency on employees and their performance, enabling more informed and fair decision-making."
               },
               "price": 12000,
-              "returns": 500
+              "returns": 200
             },
             {
               "id": 7,
@@ -150,10 +155,10 @@
                 "en-US": "Tracking customers across digital and physical channels"
               },
               "description": {
-                "en-US": "This project involves efforts to encourage web and mobile users to create accounts, and to link that data to customer identities in store, when possible. Such data feeds diverse analyses, helping the company understand how different customers use the digital channels, visit physical stores, and make purchasing decisions."
+                "en-US": "This project involves efforts to encourage web and mobile users to create accounts, and to link that data to customer identities in the CRM database, when possible. Such data feeds diverse analyses, helping the company understand how different customers use the digital channels, visit physical stores, and make purchasing decisions."
               },
               "price": 12000,
-              "returns": 400
+              "returns": 200
             }
           ]
         }
@@ -268,7 +273,7 @@
               "description": {
                 "en-US": "This project involves the adoption and setting up of a sophisticated cloud software service to analyze the marketing “funnel” – what kind of customers click ads, how do they use the website, and what explains whether they buy anything or not. Such analytics tools help digital marketing specialist design more effective ads and target them better. They also help improve the design of the web store and thus increase sales. The same analytics tools can be also used with proprietary mobile apps."
               },
-              "price": 24000,
+              "price": 20000,
               "returns": 600
             },
             {
@@ -304,7 +309,8 @@
           "title": {
             "en-US": "Customer service"
           },
-          "children": [
+          "children": 
+          [
             {
               "id": 15,
               "title": {
@@ -321,17 +327,17 @@
             },
             {
               "id": 16,
-              "title": {
-                "en-US": "Adaptive pricing"
-              },
-              "longTitle": {
-                "en-US": "Management practices accommodating dynamic pricing"
-              },
-              "description": {
-                "en-US": "This project implements centralized processes for smart pricing. It involves setting up a team of employees that draw on analytics and A/B testing, such as experimenting with discounts to identify optimal prices. The project also installs smart price tags (Internet of Things) to stores, allowing pricing to be adapted more rapidly throughout the store network."
-              },
-              "price": 14000,
-              "returns": 500
+                  "title": {
+                   "en-US": "Adaptive pricing"
+                   },
+                   "longTitle": {
+                    "en-US": "Management practices accommodating dynamic pricing"
+                  },
+                  "description": {
+                   "en-US": "This project implements centralized processes for smart pricing. It involves setting up a team of employees that draw on analytics and A/B testing, such as experimenting with discounts to identify optimal prices. The project also installs smart price tags (Internet of Things) to stores, allowing pricing to be adapted more rapidly throughout the store network."
+                  },
+                  "price": 14000,
+                  "returns": 500
             }
           ]
         },
@@ -373,7 +379,8 @@
           "title": {
             "en-US": "Marketing practices"
           },
-          "children": [
+          "children": 
+          [
             {
               "id": 50,
               "title": {
@@ -389,19 +396,19 @@
               "returns": 500
             },
             {
-              "id": 51,
+              "id": 53,
               "title": {
-                "en-US": "Search engine optimization"
+                "en-US": "Leverage individuals' characteristics in marketing"
               },
               "longTitle": {
-                "en-US": "Search engine optimization and content marketing"
+                "en-US": "Design marketing interventions based on customers' characteristics"
               },
               "description": {
-                "en-US": "The project establishes a new marketing function for optimizing the company's presence in search engines by adapting webpage titles, content, metadata, and links. Relatedly, the project establishes responsibilities for content marketing, the creation of blog posts and product information that draws customers to webiste and supports presence on search engines."
+                "en-US": "This project provides the skills to design, test, and implement marketing interventions that take into account the characteristics of each customer, providing mass-customized content and forming target groups for marketeing interventions, such as discounts and ads. These new marketing practices are necessary to get the most out of programmatic advertising."
               },
-              "price": 12000,
-              "returns": 700
-            },
+              "price": 10000,
+              "returns": 500
+            },                
             {
               "id": 52,
               "title": {
@@ -411,13 +418,13 @@
                 "en-US": "Social media presence and campaigns"
               },
               "description": {
-                "en-US": "The project createss processes and collaborative relationships for maintaining and growing a strong social media presence, and converting the social media community into sales."
+                "en-US": "The project creates processes and collaborative relationships for maintaining and growing a strong social media presence, and converting the social media community into sales. Relatedly, the project establishes responsibilities for content marketing, the creation of blog posts and product information that draws in customers."
               },
               "price": 9000,
               "returns": 400
             }
-          ]
-        },
+          ]        
+        },        
         {
           "id": 112,
           "title": {
@@ -436,6 +443,20 @@
                 "en-US": "This project creates a centralized role for choosing the products sold at various store locations. Previously, the company had used store managers’ expertise and local knowledge as the basis for choosing product assortments. With increasing availability of data, the centralized unit is better poised to determine the products and services offered at each store."
               },
               "price": 10000,
+              "returns": 400
+            },
+            {
+              "id": 51,
+              "title": {
+                "en-US": "Search engine optimization"
+              },
+              "longTitle": {
+                "en-US": "Search engine optimization (SEO)"
+              },
+              "description": {
+                "en-US": "The project establishes a new marketing function for optimizing the company's presence in search engines by adapting webpage titles, content, metadata, and links."
+              },
+              "price": 7000,
               "returns": 400
             },
             {
@@ -959,12 +980,13 @@
     {
       "investments": [
         10,
-        26
+        26,
+        53
       ],
       "description": {
-        "en-US": "We can greatly benefit from our customer lifetime value analytics in our programmatic advertising, investing money to foster ties with the most lucrative customers."
+        "en-US": "Thanks to the new marketing skills, our staff is able to leverage customer lifetime value analytics to generate programmatic advertising campaigns. We are investing money to create and foster ties with consumers having the greatest profit potential."
       },
-      "returns": 1500
+      "returns": 2000
     },
     {
       "investments": [
@@ -1031,12 +1053,13 @@
     {
       "investments": [
         16,
-        26
+        26,
+        53
       ],
       "description": {
-        "en-US": "Combining adaptive pricing with programmatic advertising, we are able to market our high-margin products to our price insensitive customers."
+        "en-US": "Our marketing experts are able to combine adaptive pricing with programmatic advertising, pushing our high-margin products to our price insensitive customers."
       },
-      "returns": 1000
+      "returns": 1400
     },
     {
       "investments": [
@@ -1085,12 +1108,14 @@
         7,
         10,
         14,
-        26
+        26,
+        50,
+        53
       ],
       "description": {
-        "en-US": "This is amazing! We can now track users, estimate their lifetime value based on web analytics, and spend advertising to attract and retain these customers."
+        "en-US": "This is amazing! We can now track users, estimate their lifetime value based on web analytics, and spend advertising to attract and retain these customers -- all thanks to the new digital marketing skills."
       },
-      "returns": 2000
+      "returns": 3500
     },
     {
       "investments": [
@@ -1101,7 +1126,7 @@
         50
       ],
       "description": {
-        "en-US": "Our analytical marketing deparment is able to make the most out of our integrated data about the customers and programmatic advertising infrastructure."
+        "en-US": "Our analytical marketing deparment is very helpful in leveraging integrated data through programmatic advertising infrastructure."
       },
       "returns": 800
     },
@@ -1164,18 +1189,9 @@
       "description": {
         "en-US": "The analytical approach of our marketing unit helps us get the most of our web analytics and maximize the conversion of visitors into paying customers."
       },
-      "returns": 300
+      "returns": 400
     },
-    {
-      "investments": [
-        20,
-        51
-      ],
-      "description": {
-        "en-US": "Thanks to our search engine optimization and content marketing, we are able to turn our digital partnerships into new revenues."
-      },
-      "returns": 200
-    },
+    
     {
       "investments": [
         20,
