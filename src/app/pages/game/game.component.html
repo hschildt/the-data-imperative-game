@@ -204,15 +204,16 @@
     <button class="reset"
             (click)="startOverClick($event)" 
             [innerHTML]="t('Start over')"></button>
-<!-- Placeholder added by Henri (needs to be fixed) -->
-    <p>Thank you for helping out! The company board has assessed your work...</p>
-    <img *ngIf="stars.imageUrl"
-    id="endstars"
-    [src]="stars.imageUrl" />
+
     <app-result-chart [chartData]="resultChartData"
                       [returnsLabel]="t('Monthly returns')"></app-result-chart>
+    <p [innerHTML]=stars.verbal></p>
+    <img *ngIf="stars.imageUrl"
+                      id="endstars" width=200 height=90
+                      [src]="stars.imageUrl" />
   </div>
-  
+  <!-- Placeholder added by Henri (needs to be fixed) -->
+
 </div>
 
 <div *ngIf="showModal"
