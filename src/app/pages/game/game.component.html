@@ -200,7 +200,7 @@
   <div *ngIf="showReport"
        id="report"
        @fadeInOut>
-    <div style="width: 100%">
+    <div>
     <h1 [innerHTML]="t('Final report')"></h1>
     <button class="reset"
             (click)="startOverClick($event)" 
@@ -210,7 +210,7 @@
                       [returnsLabel]="t('Monthly returns')"></app-result-chart>
 
     </div>
-    <div>
+    <div style="float: left">
       <p [innerHTML]=stars.verbal></p>
       <br>
       <img *ngIf="stars.imageUrl"
