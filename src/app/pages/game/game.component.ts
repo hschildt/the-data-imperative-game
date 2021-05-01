@@ -44,7 +44,19 @@ const STAR_IMAGES = {
   '1': 'assets/images/1star.png',
   '2': 'assets/images/2star.png',
   '3': 'assets/images/3star.png'
-}
+};
+
+const STAR_BOUNDARIES = {
+  '2': 40000,
+  '3': 55000
+};
+
+const STAR_VERBAL = 
+{
+  '1': 'The company board is pleased with your work. However, they feel the company is losing out to competitors.',
+  '2': 'The company board is very pleased with your work. Clearly, you had worked out a strategy for driving the digitaliation process.',
+  '3': 'That was excellent! The company board is delighted with your work and they have recommended all their contacts to rely on you to design their digitalization strategy.'
+};
 
 const DATA_KEY_VERSION = 'v';
 const DATA_KEY_ONBOARDED = 'o';
@@ -556,10 +568,14 @@ export class GameComponent implements OnDestroy, OnInit {
   }
 
   public get stars(): {count: number, verbal: string, imageUrl: string} {
+    let c = 1;
+    const r = this.returns
+    if(r>STAR_BOUNDARIES['2']) c = 2
+    if(r>STAR_BOUNDARIES['3']) c = 3
     return {
-      count: 2,
-      verbal: 'Very well done!',
-      imageUrl: STAR_IMAGES[2]      
+      count: c,
+      verbal: STAR_VERBAL[c],
+      imageUrl: STAR_IMAGES[c]      
     }
   }
   /*
