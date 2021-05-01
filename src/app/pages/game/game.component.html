@@ -200,7 +200,7 @@
   <div *ngIf="showReport"
        id="report"
        @fadeInOut>
-    <div>
+    <div style="width: 100%">
     <h1 [innerHTML]="t('Final report')"></h1>
     <button class="reset"
             (click)="startOverClick($event)" 
@@ -212,6 +212,7 @@
     </div>
     <div>
       <p [innerHTML]=stars.verbal></p>
+      <br>
       <img *ngIf="stars.imageUrl"
                         id="endstars" width=200 height=90
                         [src]="stars.imageUrl" />
