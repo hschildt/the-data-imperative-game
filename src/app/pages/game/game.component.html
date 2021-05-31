@@ -198,20 +198,18 @@
   </ng-container>
 
   <div *ngIf="showReport"
-       id="report"
-       @fadeInOut>
+    id="report"
+    @fadeInOut>
     <h1 [innerHTML]="t('Final report')"></h1>
     <button class="reset"
-            (click)="startOverClick($event)" 
-            [innerHTML]="t('Start over')"></button>
-
+      (click)="startOverClick($event)" 
+      [innerHTML]="t('Start over')"></button>
     <app-result-chart [chartData]="resultChartData"
-                      [returnsLabel]="t('Monthly returns')"></app-result-chart>
-
+      [returnsLabel]="t('Monthly returns')"></app-result-chart>
     <p [innerHTML]=stars.verbal></p>
     <img *ngIf="stars.imageUrl"
-                        id="endstars" width=180 height=90
-                        [src]="stars.imageUrl"/>
+                          id="endstars" width=160 height=70
+                          [src]="stars.imageUrl"/> 
   </div>
   <!-- Placeholder added by Henri (needs to be fixed) -->
 
