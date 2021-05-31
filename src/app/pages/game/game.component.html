@@ -212,11 +212,10 @@
     </div>
     
     <p [innerHTML]=stars.verbal>
-      <br>
-      <img *ngIf="stars.imageUrl"
-                        id="endstars" width=200 height=90
-                        [src]="stars.imageUrl" />
     </p>
+    <img *ngIf="stars.imageUrl"
+                        id="endstars" width=200 height=90
+                        [src]="stars.imageUrl"/>
   </div>
   <!-- Placeholder added by Henri (needs to be fixed) -->
 
