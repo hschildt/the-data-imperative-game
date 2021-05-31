@@ -200,7 +200,7 @@
   <div *ngIf="showReport"
        id="report"
        @fadeInOut>
-    <div style="width: 100%; height: 80%">
+    <div>
     <h1 [innerHTML]="t('Final report')"></h1>
     <button class="reset"
             (click)="startOverClick($event)" 
@@ -210,13 +210,13 @@
                       [returnsLabel]="t('Monthly returns')"></app-result-chart>
 
     </div>
-    <div style="width: 100%">
-      <p [innerHTML]=stars.verbal></p>
+    
+    <p [innerHTML]=stars.verbal>
       <br>
       <img *ngIf="stars.imageUrl"
                         id="endstars" width=200 height=90
                         [src]="stars.imageUrl" />
-    </div>
+    </p>
   </div>
   <!-- Placeholder added by Henri (needs to be fixed) -->
 
