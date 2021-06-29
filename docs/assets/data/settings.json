@@ -47,18 +47,18 @@
               "returns": 300
             },
             {
-              "id": 1,
+              "id": 7,
               "title": {
-                "en-US": "Security cam data"
+                "en-US": "Customer identity tracking"
               },
               "longTitle": {
-                "en-US": "Cloud storage of data streams from security cameras"
+                "en-US": "Tracking customers across digital and physical channels"
               },
               "description": {
-                "en-US": "The project replaces old CCTV cameras with new cloud-connected models that store the video feed into a centralized cloud repository. Security cameras help reduce theft, but their can also be used to track the number of visitors in the stores over time. Storage of the camera data enables further, more sophisticated analyses."
+                "en-US": "This project involves efforts to encourage web and mobile users to create accounts, and to link that data to customer identities in the CRM database, when possible. Such data feeds diverse analyses, helping the company understand how different customers use the digital channels, visit physical stores, and make purchasing decisions."
               },
-              "price": 5000,
-              "returns": 100
+              "price": 12000,
+              "returns": 200
             },
             {
               "id": 2,
@@ -147,18 +147,18 @@
               "returns": 200
             },
             {
-              "id": 7,
+              "id": 1,
               "title": {
-                "en-US": "Customer identity tracking"
+                "en-US": "Security cam data"
               },
               "longTitle": {
-                "en-US": "Tracking customers across digital and physical channels"
+                "en-US": "Cloud storage of data streams from security cameras"
               },
               "description": {
-                "en-US": "This project involves efforts to encourage web and mobile users to create accounts, and to link that data to customer identities in the CRM database, when possible. Such data feeds diverse analyses, helping the company understand how different customers use the digital channels, visit physical stores, and make purchasing decisions."
+                "en-US": "The project replaces old CCTV cameras with new cloud-connected models that store the video feed into a centralized cloud repository. Security cameras help reduce theft, but their can also be used to track the number of visitors in the stores over time. Storage of the camera data enables further, more sophisticated analyses."
               },
-              "price": 12000,
-              "returns": 200
+              "price": 5000,
+              "returns": 100
             }
           ]
         }
@@ -398,7 +398,7 @@
             {
               "id": 53,
               "title": {
-                "en-US": "Leverage individuals' characteristics in marketing"
+                "en-US": "Individual-level marketing"
               },
               "longTitle": {
                 "en-US": "Design marketing interventions based on customers' characteristics"
@@ -686,6 +686,16 @@
         "en-US": "Heatmaps derived from security camera data support the design of better store layouts."
       },
       "returns": 600
+    },
+    {
+      "investments": [
+        15,
+        4
+      ],
+      "description": {
+        "en-US": "Fine-grained sales data provides feedback on our service improvements."
+      },
+      "returns": 900
     },
     {
       "investments": [
